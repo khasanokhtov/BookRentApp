@@ -14,6 +14,8 @@
 		FBD4FD8F2A3765C300E6E405 /* BookRentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4FD8E2A3765C300E6E405 /* BookRentAppTests.swift */; };
 		FBD4FD992A3765C300E6E405 /* BookRentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4FD982A3765C300E6E405 /* BookRentAppUITests.swift */; };
 		FBD4FD9B2A3765C300E6E405 /* BookRentAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4FD9A2A3765C300E6E405 /* BookRentAppUITestsLaunchTests.swift */; };
+		FBD4FDAC2A382B0C00E6E405 /* Book-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4FDAB2A382B0C00E6E405 /* Book-Model.swift */; };
+		FBD4FDAE2A382E2100E6E405 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4FDAD2A382E2100E6E405 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FBD4FD942A3765C300E6E405 /* BookRentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookRentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD4FD982A3765C300E6E405 /* BookRentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRentAppUITests.swift; sourceTree = "<group>"; };
 		FBD4FD9A2A3765C300E6E405 /* BookRentAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRentAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBD4FDAB2A382B0C00E6E405 /* Book-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book-Model.swift"; sourceTree = "<group>"; };
+		FBD4FDAD2A382E2100E6E405 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		FBD4FD7C2A3765C200E6E405 /* BookRentApp */ = {
 			isa = PBXGroup;
 			children = (
+				FBD4FDA82A37661F00E6E405 /* View */,
+				FBD4FDA72A37661700E6E405 /* Model */,
 				FBD4FD7D2A3765C200E6E405 /* BookRentAppApp.swift */,
 				FBD4FD7F2A3765C200E6E405 /* ContentView.swift */,
 				FBD4FD812A3765C300E6E405 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				FBD4FD9A2A3765C300E6E405 /* BookRentAppUITestsLaunchTests.swift */,
 			);
 			path = BookRentAppUITests;
+			sourceTree = "<group>";
+		};
+		FBD4FDA72A37661700E6E405 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBD4FDAB2A382B0C00E6E405 /* Book-Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBD4FDA82A37661F00E6E405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBD4FDAD2A382E2100E6E405 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD4FDAC2A382B0C00E6E405 /* Book-Model.swift in Sources */,
 				FBD4FD802A3765C200E6E405 /* ContentView.swift in Sources */,
+				FBD4FDAE2A382E2100E6E405 /* Home.swift in Sources */,
 				FBD4FD7E2A3765C200E6E405 /* BookRentAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
