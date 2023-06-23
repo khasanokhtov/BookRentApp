@@ -20,4 +20,4 @@ var sampleBooks: [Book] = [.init(title: "Five Feet Apart", imageName: "1",author
                            .init(title: "Booke of Hapiness", imageName: "3", author: "Anne"),
                            .init(title: "Five Feet Apart", imageName: "4", author: "William Lippincott"),
                            .init( title: "Living Alone", imageName: "5", author: "Jenna Lippincott"),
-]
+] 
